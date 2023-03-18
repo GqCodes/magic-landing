@@ -1,0 +1,14 @@
+@use './reset.scss';
+@use '../components/components.scss';
+@use './bootstrap/scss/bootstrap.scss';
+
+:root {
+  --magicBlue: #0077c0;
+  --magicSilver: #bac4c9;
+  --magicBlack: #130c0e;
+  --container: 1400px;
+}
+
+body {
+  background-color: #fff;
+}

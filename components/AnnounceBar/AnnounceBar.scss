@@ -1,0 +1,32 @@
+.announce-bar {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  padding: 10px 0;
+  font-size: 1rem;
+  background: var(--magicBlack);
+  color: white;
+  img {
+    width: 3.5rem;
+    height: auto;
+  }
+  .flexItems {
+    display: flex;
+    align-items: center;
+  }
+  &__links {
+    margin-left: 1rem;
+  }
+  &__social-link {
+    padding: 0 7px;
+    // color: var(--magicSilver);
+    color: #fff;
+    &:hover {
+      color: var(--magicBlue);
+    }
+  }
+
+  .search {
+    margin-left: auto;
+  }
+}
