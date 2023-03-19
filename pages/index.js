@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import MainLayout from '@/components/layouts/mainLayout';
-// import Hero1 from '@/components/Hero/Hero1/Hero1';
-import Hero2 from '@/components/Hero/Hero2/Hero2';
+import Hero from '@/components/Hero/Hero/';
+import Hero1 from '@/components/Hero/Hero1';
 import Collection1 from '@/components/Collections/Collection1/Collection1';
 import Collection2 from '@/components/Collections/Collection2/Collection1';
 import Collection3 from '@/components/Collections/Collection3/Collection3';
@@ -15,7 +15,8 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Hero2 />
+      <Hero1 />
+      {/* <Hero /> */}
       <Collection1 />
       <Collection2 />
       <Collection3 />

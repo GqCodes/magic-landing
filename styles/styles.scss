@@ -12,3 +12,19 @@
 body {
   background-color: #fff;
 }
+
+.fixed-nav {
+  &.nav-transparent {
+    .header {
+      background: transparent;
+      a {
+        color: #e1e2e7;
+      }
+    }
+  }
+  .header {
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+  }
+}
