@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import MainLayout from '@/components/layouts/mainLayout';
 import Hero from '@/components/Hero/Hero/';
-import Hero1 from '@/components/Hero/Hero1';
-import Collection1 from '@/components/Collections/Collection1/Collection1';
-import Collection2 from '@/components/Collections/Collection2/Collection1';
-import Collection3 from '@/components/Collections/Collection3/Collection3';
+import Collection2 from '@/components/Collections/Collection2';
+import Cards from '@/components/Cards/Cards';
+import Grid from '@/components/Grid/Grid';
 
 export default function Home() {
   return (
@@ -15,11 +14,10 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Hero1 />
-      {/* <Hero /> */}
-      <Collection1 />
+      <Hero />
+      <Cards />
+      <Grid />
       <Collection2 />
-      <Collection3 />
     </MainLayout>
   );
 }

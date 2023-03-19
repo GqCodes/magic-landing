@@ -1,0 +1,18 @@
+.grid-container {
+  max-width: var(--container);
+  margin-inline: auto;
+  .grid-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    text-align: center;
+    img {
+      width: 300px;
+      height: 150px;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+  }
+}

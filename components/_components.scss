@@ -1,9 +1,13 @@
 @use './Header/Header.scss';
-@use './AnnounceBar//AnnounceBar.scss';
+@use './AnnounceBar/AnnounceBar.scss';
+
+@use '/components/Cards/Cards.scss';
 
 @use './Hero/Hero.scss';
-@use './Hero/Hero1.scss';
+@use './Hero/Hero3/Hero3.scss';
+
+@use './Grid/Grid.scss';
+
 @use './layouts/ShowLayout.scss';
-@use './Collections/Collection1/Collection1.scss';
-@use './Collections/Collection3/Collection3.scss';
+@use './Collections/Collection2.scss';
 @use './Footer/Footer.scss';

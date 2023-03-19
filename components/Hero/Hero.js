@@ -1,42 +1,51 @@
+import HeaderFigure from '../Figure/Figure';
+
 export default function Hero() {
   return (
     <>
       <div className='header-test'>
         <h1 className='test'>
-          <span>Feel the magic</span> of a live NBA game in orlando.
+          Feel the <span>magic</span>
+          <figure>
+            <img
+              src='https://images.pexels.com/photos/6307706/pexels-photo-6307706.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load'
+              alt=''
+            />
+            <figcaption>Nulla vitae elit libero.</figcaption>
+          </figure>
+          of live <br /> NBA games in orlando
         </h1>
+        <div className='cta'>
+          <a href='#' className='button'>
+            View Schedule
+          </a>
+        </div>
+
         <div className='video-div'>
-          <video autoPlay loop muted controls playsInline>
-            <source src='https://player.vimeo.com/external/451464846.sd.mp4?s=f17fd0cf4fabbbe198a3e66cf1ed7a6fb0585836&profile_id=164&oauth2_token_id=57447761' />
+          <video autoPlay muted loop playsInline>
+            <source
+              src='https://player.vimeo.com/external/467427545.sd.mp4?s=bc6d0549cb6958c29e763698c884186064779229&profile_id=164&oauth2_token_id=57447761'
+              type='video/mp4'
+            />
           </video>
         </div>
       </div>
       <div className='hero'>
         <div className='hero__collection1'>
-          <img
-            src='https://images.pexels.com/photos/5096351/pexels-photo-5096351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-            className='hero__bg'
-          />
-          <div className='hero__content-container1'>
-            <div className='hero__info'>
-              <a href='#' className='hero__button'>
-                Men
-              </a>
-            </div>
-          </div>
+          <img src='https://spacecoastdaily.com/wp-content/uploads/2022/12/ORLANDO-MAGIC-800-1.jpg' className='hero__bg' />
         </div>
 
         <div className='hero__collection2'>
-          <img
-            src='https://images.pexels.com/photos/3394668/pexels-photo-3394668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-            className='hero__bg'
-          />
-          <div className='hero__content-container2'>
-            <div className='hero__info'>
-              <a href='#' className='hero__button'>
-                Women
-              </a>
-            </div>
+          <div className='hero__info'>
+            <h3 className='hero__title'>Watch the Game & Enjoy the Show</h3>
+            <p className='hero__paragraph'>
+              Be on the edge of your seat as you watch a live NBA game. See all of your favorite players in action on the court! And it’s
+              more than just the action of a basketball game—it’s experiencing all the Orlando Magic has to offer. In-game features for fans
+              of all ages make an unforgettable experience for the whole family.
+            </p>
+            <a href='#' className='hero__button'>
+              Find your tickets
+            </a>
           </div>
         </div>
       </div>
