@@ -1,0 +1,17 @@
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem 0 0;
+  width: 100%;
+  // border-top: 2px solid gray;
+  border-bottom: 3px solid var(--magicBlue);
+  // background-color: var(--magicSilver);
+  img {
+    margin: 0 1.5rem;
+    width: 10%;
+    height: 7rem;
+    cursor: pointer;
+  }
+}

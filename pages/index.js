@@ -4,6 +4,7 @@ import Hero from '@/components/Hero/Hero/';
 import Collection2 from '@/components/Collections/Collection2';
 import Cards from '@/components/Cards/Cards';
 import Grid from '@/components/Grid/Grid';
+import Logos from '@/components/Logos/Logos';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Cards />
       <Grid />
       <Collection2 />
+      <Logos />
     </MainLayout>
   );
 }

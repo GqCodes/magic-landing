@@ -13,8 +13,8 @@
   &__link {
     color: #fff;
     text-decoration: none;
-    font-size: 0.8;
-    margin: 10px 0;
+    font-size: 0.8rem;
+    margin: 3px 0;
     &:hover {
       color: chocolate;
     }
@@ -39,9 +39,11 @@
     align-items: center;
   }
   &__social-link {
-    color: #666;
+    color: var(--magicSilver);
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
     &:hover {
-      color: chocolate;
+      color: var(--magicBlue);
     }
   }
   &__bottom {
