@@ -7,13 +7,13 @@ export default function Collection2() {
             <div className='collection2__product-item collection2__product-item__1'>
               <div className='collection2__product-info'>
                 <h2 className='collection2__product-title'>Groups, Tour Operators and Travel Industry Professionals</h2>
-                <p className='collection2__product-price'>Are you planning a group or client's visit to Orlando?</p>
-                <ul>
-                  <li>
+                <p className='collection2__paragraph'>Are you planning a group or client's visit to Orlando?</p>
+                <ul className='collection2__list'>
+                  <li className='collection2__list-item'>
                     <p>Contact our Tourism Sales Team for special travel trade industry rates and group opportunities.</p>
                   </li>
-                  <li>
-                    <p>Get exclusive access to ticket inventory, unique experiences and a dedicated sales support team.</p>
+                  <li className='collection2__list-item'>
+                    Get exclusive access to ticket inventory, unique experiences and a dedicated sales support team.
                   </li>
                 </ul>
               </div>

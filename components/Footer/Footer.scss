@@ -26,7 +26,8 @@
     font-size: 0.8rem;
     margin: 3px 0;
     &:hover {
-      color: var(--magicBlue);
+      color: var(--magicSilver);
+      text-decoration: underline;
     }
   }
   &__extra_ {
