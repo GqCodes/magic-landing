@@ -1,8 +1,9 @@
 .mycontainer {
-  margin: 10rem auto;
+  margin: 10rem 0 10rem 5rem;
+  overflow: hidden;
   .myswiper {
-    width: 60vw;
-    height: 60vh;
+    width: 100vw;
+    height: 70vh;
     .swiperslide {
       img {
         width: 100%;

@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function AnnounceBar() {
   return (
-    <div className='announce-bar'>
-      <div className='container flexItems'>
+    <div className='announce-bar '>
+      <div className='container-fluid flexItems'>
         <a href='/'>
           <Image src={nbaLogo} />
         </a>

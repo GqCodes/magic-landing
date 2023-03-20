@@ -1,24 +1,24 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, EffectFade } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
 
-import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export default function Cards() {
   return (
     <div className='mycontainer'>
       <Swiper
-        slidesPerView={1.1}
-        navigation
-        // effect={'fade'}
+        slidesPerView={1.2}
+        // navigation
+        pagination
         centeredSlides={true}
-        modules={[Navigation, EffectFade]}
-        speed={800}
+        modules={[Navigation, Pagination]}
+        // speed={800}
         grabCursor={true}
-        loop
-        spaceBetween={20}
+        // loop
+        spaceBetween={50}
         className='myswiper'
       >
         <SwiperSlide className='swiperslide'>

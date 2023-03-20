@@ -2,6 +2,7 @@ import Head from 'next/head';
 import MainLayout from '@/components/layouts/mainLayout';
 import Hero from '@/components/Hero/Hero/';
 import Collection2 from '@/components/Collections/Collection2';
+import Collection3 from '@/components/Collections/Collection3';
 import Cards from '@/components/Cards/Cards';
 import Grid from '@/components/Grid/Grid';
 import Logos from '@/components/Logos/Logos';
@@ -16,10 +17,13 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero />
-      <Cards />
+
       <Grid />
-      <Collection2 />
+
+      <Cards />
       <Logos />
+      <Collection2 />
+      <Collection3 />
     </MainLayout>
   );
 }

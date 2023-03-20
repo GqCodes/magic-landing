@@ -1,5 +1,3 @@
-import HeaderFigure from '../Figure/Figure';
-
 export default function Hero() {
   return (
     <>
@@ -7,11 +5,13 @@ export default function Hero() {
         <h1 className='test'>
           Feel the <span>magic</span>
           <figure>
-            <img
-              src='https://images.pexels.com/photos/6307706/pexels-photo-6307706.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load'
-              alt=''
-            />
-            <figcaption>Nulla vitae elit libero.</figcaption>
+            <video autoPlay muted loop playsInline>
+              <source
+                src='https://player.vimeo.com/external/467427545.sd.mp4?s=bc6d0549cb6958c29e763698c884186064779229&profile_id=164&oauth2_token_id=57447761'
+                type='video/mp4'
+              />
+            </video>
+            {/* <figcaption>Nulla vitae elit libero.</figcaption> */}
           </figure>
           of live <br /> NBA games in orlando
         </h1>
@@ -32,7 +32,8 @@ export default function Hero() {
       </div>
       <div className='hero'>
         <div className='hero__collection1'>
-          <img src='https://spacecoastdaily.com/wp-content/uploads/2022/12/ORLANDO-MAGIC-800-1.jpg' className='hero__bg' />
+          <div className='group'> </div>
+          {/* <img src='https://spacecoastdaily.com/wp-content/uploads/2022/12/ORLANDO-MAGIC-800-1.jpg' className='hero__bg' /> */}
         </div>
 
         <div className='hero__collection2'>

@@ -5,31 +5,30 @@ export default function Collection2() {
         <div className='row'>
           <div className='col-md-6'>
             <div className='collection2__product-item collection2__product-item__1'>
-              <img src='https://images.pexels.com/photos/1762578/pexels-photo-1762578.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
-
               <div className='collection2__product-info'>
-                <span className='collection2__product-title'>Sneakers</span>
-                <span className='collection2__product-price'>Price</span>
+                <h2 className='collection2__product-title'>Groups, Tour Operators and Travel Industry Professionals</h2>
+                <p className='collection2__product-price'>Are you planning a group or client's visit to Orlando?</p>
+                <ul>
+                  <li>
+                    <p>Contact our Tourism Sales Team for special travel trade industry rates and group opportunities.</p>
+                  </li>
+                  <li>
+                    <p>Get exclusive access to ticket inventory, unique experiences and a dedicated sales support team.</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
 
           <div className='col-md-6'>
             <div className='collection2__product-item collection2__product-item__2 '>
-              <img src='https://images.pexels.com/photos/1762578/pexels-photo-1762578.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
-
-              <div className='collection2__product-info'>
-                <span className='collection2__product-title'>Sneakers</span>
-                <span className='collection2__product-price'>Price</span>
-              </div>
+              <img
+                src='https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Forlandomagicdaily.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1135146287.jpeg'
+                alt=''
+              />
             </div>
           </div>
         </div>
-      </div>
-
-      <div className='contact-us'>
-        <a href='/'>Call Us</a>
-        <a href='/'>Call Us</a>
       </div>
     </section>
   );

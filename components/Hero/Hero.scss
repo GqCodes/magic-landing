@@ -1,8 +1,7 @@
 .header-test {
   background: var(--magicBlack);
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
   .test {
-    // background-color: var(--magicBlack);
     padding: 10rem 0 3rem;
     font-size: 7rem;
     text-transform: uppercase;
@@ -16,22 +15,24 @@
 
     figure {
       display: inline-block;
-      img {
-        width: 50px;
-        height: 50px;
+      margin: 0 0.75rem;
+      video {
+        width: 8rem;
+        height: auto;
       }
       figcaption {
-        font-size: 12px;
+        font-size: 0.5rem;
       }
     }
   }
+
   .video-div {
     display: block;
     width: 100%;
     margin: 0 auto;
     video {
       display: block;
-      width: 80vw;
+      width: 90vw;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
       margin: 0 auto;
@@ -58,10 +59,16 @@
   overflow: hidden;
   // position: relative;
   display: flex;
+
   &__collection1 {
     width: 50%;
     position: relative;
     height: 100%;
+    background: url('https://spacecoastdaily.com/wp-content/uploads/2022/12/ORLANDO-MAGIC-800-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-attachment: fixed;
+    // background-position: center;
   }
   &__collection2 {
     width: 50%;
@@ -72,18 +79,10 @@
     align-items: center;
     flex-direction: column;
   }
-  &__bg {
-    position: absolute;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
 
   &__info {
     color: black;
-    max-width: 400px;
+    max-width: 600px;
   }
   &__title {
     font-size: 3rem;

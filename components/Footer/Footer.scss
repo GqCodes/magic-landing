@@ -1,22 +1,32 @@
 .footer {
-  background-color: #000000;
-  padding: 50px 0;
+  background-color: var(--magicBlack);
+  padding: 30px 0;
+  border-top: 1px solid var(--magicSilver);
+  .pb {
+    padding-bottom: 5rem;
+  }
   &__links {
     display: flex;
     flex-direction: column;
   }
   &__column-title {
-    color: #fff;
-    font-size: 01rem;
+    color: var(--magicSilver);
+    font-size: 1.25rem;
     margin-bottom: 0.5rem;
   }
+  &__social-title {
+    color: var(--magicSilver);
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
   &__link {
-    color: #fff;
+    color: var(--magicSilver);
     text-decoration: none;
     font-size: 0.8rem;
     margin: 3px 0;
     &:hover {
-      color: chocolate;
+      color: var(--magicBlue);
     }
   }
   &__extra_ {
@@ -30,7 +40,7 @@
   }
   p {
     font-size: 0.7rem;
-    color: #fff;
+    color: var(--magicSilver);
     line-height: 1.7;
   }
   &__social-icons {
@@ -55,16 +65,32 @@
     align-items: center;
   }
   &__copy {
-    color: #666;
-    font-size: 0.8rem;
-  }
-  &__extra-links a {
-    margin-left: 0.6rem;
-    text-decoration: none;
-    color: #fff;
-    font-size: 0.8rem;
-    &:hover {
-      color: chocolate;
+    color: var(--magicSilver);
+    p {
+      margin-bottom: 0.4rem;
+      .no-border {
+        a {
+          padding: 0 0.5rem 0 0;
+        }
+      }
+    }
+
+    a {
+      margin: 0;
+      padding: 0 0.5rem;
+      color: var(--magicSilver);
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: var(--magicSilver);
+      }
+    }
+    span {
+      border-right: 1px solid #666;
+    }
+    img {
+      width: 6rem;
+      height: auto;
     }
   }
 }

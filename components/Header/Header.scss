@@ -11,11 +11,12 @@
     align-items: center;
     justify-content: space-between;
     .burger {
-      // margin-left: auto;
       a {
-        // color: var(--magicBlack);
         color: white;
         font-size: 1.5rem;
+        &:hover {
+          color: var(--magicBlue);
+        }
       }
     }
   }

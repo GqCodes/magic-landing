@@ -2,11 +2,12 @@
   display: flex;
   // justify-content: center;
   // align-items: center;
-  padding: 3px 0;
+  padding: 3px 20px;
   font-size: 1rem;
-  background: var(--magicBlue);
+  background: var(--magicBlack);
   color: white;
-  border-bottom: 3px solid var(--magicSilver);
+  border-bottom: 2px solid var(--magicBlue);
+
   img {
     width: 3.5rem;
     height: auto;
@@ -20,8 +21,8 @@
   }
   &__social-link {
     padding: 0 7px;
-    // color: var(--magicSilver);
-    color: #fff;
+    color: var(--magicSilver);
+    // color: #fff;
     &:hover {
       color: var(--magicBlue);
     }

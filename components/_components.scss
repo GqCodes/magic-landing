@@ -1,5 +1,7 @@
-@use './Header/Header.scss';
+@use './layouts/ShowLayout.scss';
+
 @use './AnnounceBar/AnnounceBar.scss';
+@use './Header/Header.scss';
 
 @use '/components/Cards/Cards.scss';
 
@@ -8,7 +10,8 @@
 
 @use './Grid/Grid.scss';
 
-@use './layouts/ShowLayout.scss';
 @use './Collections/Collection2.scss';
-@use './Footer/Footer.scss';
+@use './Collections/Collection3.scss';
+
 @use './Logos/Logos.scss';
+@use './Footer/Footer.scss';
