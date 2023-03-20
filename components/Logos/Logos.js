@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import disney from '@/public/disney.png';
+import disney from '@/public/Disney.png';
 import blue from '@/public/florida-blue.png';
 import l3 from '@/public/l3.png';
 import pepsi from '@/public/pepsi.png';
 import ioa from '@/public/simply-ioa.png';
 import city from '@/public/city-national.png';
-import adventhealth from '@/public/advent.png';
+import adventhealth from '@/public/Advent.png';
 
 export default function Logos() {
   return (
