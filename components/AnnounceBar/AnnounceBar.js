@@ -33,8 +33,30 @@ export default function AnnounceBar() {
         </div>
         <div className='search'>
           <a href='#' className='announce-bar__social-link'>
-            <i className='fa-solid fa-magnifying-glass'></i>
+            Teams
+            <i className='fa-solid fa-chevron-down'></i>
           </a>
+          <a href='#' className='announce-bar__social-link'>
+            G League
+          </a>
+          <a href='#' className='announce-bar__social-link'>
+            WNBA
+          </a>
+          <a href='#' className='announce-bar__social-link'>
+            BAL
+          </a>
+          <a href='#' className='announce-bar__social-link'>
+            NBA 2K
+          </a>
+          <a href='#' className='announce-bar__social-link'>
+            NBA STORE
+          </a>
+          <a href='#' className='announce-bar__social-link'>
+            NBA League Pass
+          </a>
+          {/* <a href='#' className='announce-bar__social-link'>
+            <i className='fa-solid fa-magnifying-glass'></i>
+          </a> */}
         </div>
       </div>
     </div>

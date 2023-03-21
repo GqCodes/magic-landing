@@ -35,9 +35,12 @@ export default function Header() {
             </span>
           </div>
           <div className='burger'>
-            <a href='/'>
-              <i className='fa-solid fa-bars'></i>
+            <a href='#' className='announce-bar__social-link'>
+              <i className='fa-solid fa-magnifying-glass'></i>
             </a>
+            {/* <a href='/'>
+              <i className='fa-solid fa-bars'></i>
+            </a> */}
           </div>
         </div>
       </header>

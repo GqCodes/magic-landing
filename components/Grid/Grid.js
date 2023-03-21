@@ -1,7 +1,11 @@
 export default function Grid() {
   return (
     <section className='grid-container'>
-      <h2>Visit the award-winning Amway Center in downtown Orlando, featuring:</h2>
+      <h2>
+        {/* Get ready for a world-class experience at the Amway Center in Orlando. */}
+        Enter the world of award-winning entertainment at the Amway Center.
+        {/* Visit the award-winning <br /> Amway Center in downtown Orlando, featuring: */}
+      </h2>
       <div className='row'>
         <div className='col-4 grid-card'>
           <img
@@ -9,8 +13,9 @@ export default function Grid() {
             alt=''
           />
           <p>
-            Unique bars and restaurants including Jernigan’s, a fine dining experience where you can enjoy a delicious meal while
-            overlooking the game from the comfort of your table
+            Unique bars and restaurants including Jernigan’s, where delicious dining meets game-day thrills
+            {/* a fine dining experience where you can
+            enjoy a delicious meal while overlooking the game from the comfort of your table */}
           </p>
         </div>
         <div className='col-4 grid-card'>

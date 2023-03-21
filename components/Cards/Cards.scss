@@ -3,7 +3,7 @@
   overflow: hidden;
   .myswiper {
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     .swiperslide {
       img {
         width: 100%;
@@ -19,7 +19,7 @@
         width: 40%;
         font-size: 2rem;
         padding: 1rem;
-        background-color: var(--magicBlack);
+        background-color: rgba($color: #0077c0, $alpha: 0.65);
       }
     }
   }

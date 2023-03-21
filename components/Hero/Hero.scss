@@ -1,6 +1,7 @@
 .header-test {
   background: var(--magicBlack);
   padding-bottom: 10rem;
+
   .test {
     padding: 10rem 0 3rem;
     font-size: 7rem;
@@ -17,8 +18,9 @@
       display: inline-block;
       margin: 0 0.75rem;
       video {
-        width: 8rem;
-        height: auto;
+        width: 16rem;
+        height: 6rem;
+        // height: auto;
       }
       figcaption {
         font-size: 0.5rem;
@@ -43,11 +45,18 @@
     margin-bottom: 9rem;
     display: block;
     margin-inline: auto;
+
     .button {
       border: 2px solid var(--magicBlue);
       text-decoration: none;
-      color: white;
+      color: var(--magicSilver);
       padding: 1rem 3rem;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0px 0px 0 var(--magicBlue);
+      &:hover {
+        box-shadow: 8px 10px 0 var(--magicBlue);
+        border: none;
+      }
     }
   }
 }
@@ -55,20 +64,17 @@
 .hero {
   width: 100%;
   height: 100vh;
-  // margin-bottom: 50px;
   overflow: hidden;
-  // position: relative;
   display: flex;
 
   &__collection1 {
     width: 50%;
     position: relative;
     height: 100%;
-    background: url('https://spacecoastdaily.com/wp-content/uploads/2022/12/ORLANDO-MAGIC-800-1.jpg');
+    background: url('../../public/off1.png');
     background-repeat: no-repeat;
     background-size: 50% 100%;
     background-attachment: fixed;
-    // background-position: center;
   }
   &__collection2 {
     width: 50%;
@@ -85,24 +91,28 @@
     max-width: 600px;
   }
   &__title {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
   }
   &__paragraph {
+    font-size: 1.25rem;
     margin-bottom: 3rem;
     line-height: 1.2;
   }
+
   &__button {
     padding: 15px 7em;
-    background-color: transparent;
+    background-color: white;
     text-decoration: none;
-    color: #000000;
+    color: var(--magicBlack);
     font-weight: 500;
     border: 3px solid var(--magicBlue);
-    font-size: 0.8rem;
-    transition: all 0.4s ease-in-out;
+    font-size: 0.9rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 0 var(--magicBlue);
     &:hover {
-      background: #fff;
-      color: #000;
+      box-shadow: 8px 10px 0 var(--magicBlue);
+      border: none;
     }
   }
 }

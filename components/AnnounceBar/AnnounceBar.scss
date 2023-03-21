@@ -25,11 +25,22 @@
     // color: #fff;
     &:hover {
       color: var(--magicBlue);
+      transition: 0.2s;
     }
   }
 
   .search {
     margin-left: auto;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: var(--magicBlue);
+        transition: 0.2s;
+      }
+      i {
+        padding-left: 5px;
+      }
+    }
   }
 }

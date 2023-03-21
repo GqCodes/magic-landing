@@ -13,7 +13,7 @@
     .burger {
       a {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         &:hover {
           color: var(--magicBlue);
         }
@@ -34,6 +34,10 @@
       display: inline-block;
       color: white;
       font-weight: 500;
+      &:hover {
+        transition: 0.2s;
+        color: var(--magicBlue);
+      }
     }
   }
   &__logo {
