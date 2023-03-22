@@ -1,4 +1,3 @@
-import 'animate.css';
 import { Bebas_Neue } from 'next/font/google';
 
 const bebasNeue = Bebas_Neue({
@@ -10,7 +9,7 @@ export default function Hero() {
   return (
     <>
       <div className='header-test'>
-        <h1 className='test animate__animated animate__backInUp'>
+        <h1 className='test '>
           Orlando NBA
           <figure>
             <video autoPlay muted loop playsInline>
