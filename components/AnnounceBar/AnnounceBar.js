@@ -54,9 +54,9 @@ export default function AnnounceBar() {
           <a href='#' className='announce-bar__social-link'>
             NBA League Pass
           </a>
-          {/* <a href='#' className='announce-bar__social-link'>
+          <a href='#' className='announce-bar__social-link'>
             <i className='fa-solid fa-magnifying-glass'></i>
-          </a> */}
+          </a>
         </div>
       </div>
     </div>

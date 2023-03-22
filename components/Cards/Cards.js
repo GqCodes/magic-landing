@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 export default function Cards() {
   return (
-    <div className='mycontainer'>
+    <section className='mycontainer'>
       <h1 className='swipe-header'>Enter the world of award-winning entertainment at the Amway Center.</h1>
       <Swiper
         slidesPerView={1.75}
@@ -50,9 +50,9 @@ export default function Cards() {
             src='https://www.attractiontickets.com/sites/default/files/styles/news_content_desktop/public/2022-09/orlando-magic-fans.jpg?itok=xiODcuCx'
             alt=''
           />
-          <p>Discounts and exclusives for groups of 10+</p>
+          <p>Exclusive discounts for groups of 10+</p>
         </SwiperSlide>
       </Swiper>
-    </div>
+    </section>
   );
 }

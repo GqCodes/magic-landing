@@ -2,11 +2,7 @@ export default function Grid() {
   return (
     <>
       <section className='categories'>
-        <h3>Unforgettable Experiences</h3>
-        {/* <div className='text-xl'>All The TV You Love</div>
-        <div classNameName='sub-text'>
-          Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.
-        </div> */}
+        <h3 className='categories__title'>Experience the thrill of live NBA games in Orlando</h3>
 
         <div className='covers'>
           <div className='cover-1'>

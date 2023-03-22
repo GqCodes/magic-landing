@@ -17,8 +17,8 @@ export default function Home() {
       </Head>
       <Hero />
       <Grid />
-      <Cards />
       <Logos />
+      <Cards />
       <Collection2 />
       <Collection3 />
     </MainLayout>

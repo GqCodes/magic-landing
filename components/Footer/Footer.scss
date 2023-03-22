@@ -13,6 +13,9 @@
     color: var(--magicSilver);
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    @media (max-width: 768px) {
+      margin: 1rem 0;
+    }
   }
   &__social-title {
     color: var(--magicSilver);

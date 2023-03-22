@@ -11,11 +11,22 @@
     align-items: center;
     justify-content: space-between;
     .burger {
+      .fa-bars {
+        display: none;
+      }
       a {
         color: white;
         font-size: 1.2rem;
         &:hover {
           color: var(--magicBlue);
+        }
+      }
+      @media (max-width: 768px) {
+        .fa-magnifying-glass {
+          display: none;
+        }
+        .fa-bars {
+          display: block;
         }
       }
     }
@@ -38,6 +49,9 @@
         transition: 0.2s;
         color: var(--magicBlue);
       }
+    }
+    @media (max-width: 768px) {
+      display: none;
     }
   }
   &__logo {

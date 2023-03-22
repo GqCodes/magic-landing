@@ -7,15 +7,14 @@ const bebasNeue = Bebas_Neue({
 
 export default function Hero() {
   return (
-    <>
-      <div className='header-test'>
-        <h1 className='test '>
+    <section>
+      <div className='header-main'>
+        <h1 className='header-main__title '>
           Orlando NBA
           <figure>
             <video autoPlay muted loop playsInline>
               <source src='/vid1.mp4' type='video/mp4' />
             </video>
-            {/* <figcaption>Nulla vitae elit libero.</figcaption> */}
           </figure>
           Games
           <br />
@@ -41,10 +40,7 @@ export default function Hero() {
 
         <div className='hero__collection2'>
           <div className='hero__info'>
-            <h3 className='hero__title'>
-              Experience live NBA games like never before!
-              {/* Experience live sports like never before - join us! */}
-            </h3>
+            <h3 className='hero__title'>Experience live NBA games like never before!</h3>
             <p className='hero__paragraph'>
               Get ready for an adrenaline-fueled ride as you witness the heart-stopping action of a live NBA game! Catch all the biggest
               names in basketball as they hit the court in Orlando, for the full Magic experience!
@@ -52,17 +48,13 @@ export default function Hero() {
               <br />
               With in-game features for fans of all ages, your whole family will be part of a truly unforgettable event. Don't miss your
               chance to be part of the ultimate NBA and Magic spectacle - grab your tickets now!
-              {/* Be on the edge of your seat as you watch a live NBA game. See all of your favorite players in action on the court! And it’s
-              more than just the action of a basketball game—it’s experiencing all the Orlando Magic has to offer. In-game features for fans
-              of all ages make an unforgettable experience for the whole family. */}
             </p>
-
             <a href='#' className='hero__button'>
               Find your tickets
             </a>
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

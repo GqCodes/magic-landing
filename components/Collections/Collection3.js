@@ -1,27 +1,25 @@
 export default function Collection3() {
   return (
-    <section className='box-container'>
+    <div className='button-container test'>
       <div className='container'>
-        <div className='row all-links '>
-          <div className='col-3 link-card b-right'>
-            <span>
-              <a href='/'>Call Us</a>
-            </span>
+        <div className=' row all-links'>
+          <div className='col-sm-6 col-md-3 link-card'>
+            <a href='/'>Call Us</a>
           </div>
 
-          <div className='col-3 link-card b-right'>
+          <div className='col-sm-6 col-md-3 link-card'>
             <a href='/'>email us</a>
           </div>
 
-          <div className='col-3 link-card b-right'>
+          <div className='col-sm-6 col-md-3 link-card'>
             <a href='/'>more info</a>
           </div>
 
-          <div className='col-3 link-card contact-us'>
+          <div className='col-sm-6 col-md-3 link-card contact-us'>
             <a href='/'>Chat now</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

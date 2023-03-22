@@ -1,17 +1,22 @@
-.header-test {
+.header-main {
   background: var(--magicBlack);
   padding-bottom: 10rem;
+  @media (max-width: 768px) {
+    padding-bottom: 5rem;
+  }
 
-  .test {
-    padding: 10rem 0 3rem;
-    font-size: 7rem;
+  &__title {
+    padding: 10rem 1rem 3rem;
+    font-size: clamp(3rem, 6vw, 7rem);
     text-transform: uppercase;
     color: white;
     text-align: center;
+    @media (max-width: 768px) {
+      padding: 5rem 1rem 3rem;
+    }
 
     span {
       color: var(--magicBlue);
-      text-decoration: underline;
     }
 
     figure {
@@ -51,7 +56,11 @@
       text-decoration: none;
       color: var(--magicSilver);
       padding: 1rem 3rem;
-      // transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: var(--magicBlack);
+        background-color: var(--magicBlue);
+      }
     }
   }
 }
@@ -70,6 +79,9 @@
     background-repeat: no-repeat;
     background-size: 50% 100%;
     background-attachment: fixed;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   &__collection2 {
     width: 50%;
@@ -79,15 +91,25 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: clamp(2rem, 5rem, 7rem);
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   &__info {
     color: black;
     max-width: 600px;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
   &__title {
     font-size: 3.5rem;
     margin-bottom: 3rem;
+    @media (max-width: 968px) {
+      font-size: 2.5;
+    }
   }
   &__paragraph {
     font-size: 1.25rem;
@@ -103,7 +125,11 @@
     font-weight: 500;
     border: 3px solid var(--magicBlue);
     font-size: 0.9rem;
-    // transition: all 0.3s ease-in-out;
-    // box-shadow: 0px 0px 0 var(--magicBlue);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--magicBlack);
+      background-color: var(--magicBlue);
+    }
   }
 }

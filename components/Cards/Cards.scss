@@ -1,26 +1,42 @@
 .mycontainer {
-  margin: 10rem 0 10rem 5rem;
+  padding: 10rem 0;
   overflow: hidden;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+  .swipe-header {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    @media (max-width: 768px) {
+      padding: 5rem 0;
+    }
+  }
   .myswiper {
     width: 100vw;
     height: 60vh;
     .swiperslide {
       img {
         width: 100%;
-        height: 100%;
+        height: 95%;
         object-fit: cover;
         position: relative;
       }
       p {
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: 0;
         color: #fff;
-        width: 40%;
-        font-size: 2rem;
-        padding: 1rem;
-        background-color: rgba($color: #0077c0, $alpha: 0.65);
+        max-width: 100%;
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        background-color: rgba($color: #0077c0, $alpha: 0.8);
       }
     }
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizonta {
+    width: 100%;
+    bottom: 0px;
   }
 }
