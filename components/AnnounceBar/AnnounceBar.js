@@ -6,7 +6,7 @@ export default function AnnounceBar() {
     <div className='announce-bar '>
       <div className='container-fluid flexItems'>
         <a href='/'>
-          <Image src={nbaLogo} />
+          <Image src={nbaLogo} priority />
         </a>
         <div className='announce-bar__links'>
           <a href='#' className='announce-bar__social-link'>
@@ -53,9 +53,6 @@ export default function AnnounceBar() {
           </a>
           <a href='#' className='announce-bar__social-link'>
             NBA League Pass
-          </a>
-          <a href='#' className='announce-bar__social-link'>
-            <i className='fa-solid fa-magnifying-glass'></i>
           </a>
         </div>
       </div>

@@ -1,40 +1,7 @@
-// .button-container {
-//   background: var(--magicBlack);
-//   height: 15vh;
-//   // display: flex;
-//   // justify-content: center;
-//   // align-items: center;
-//   text-align: center;
-//   .all-links {
-//     text-align: center;
-//     .link-card {
-//       text-transform: uppercase;
-//       font-weight: bold;
-//       // display: inline-block;
-
-//       a {
-//         text-decoration: none;
-//         line-height: 1;
-//         color: var(--magicSilver);
-//         padding: 15px 25px;
-//         background-color: transparent;
-//         font-weight: 500;
-//         border: 3px solid var(--magicBlue);
-//         font-size: 0.8rem;
-//         transition: all 0.3s ease-in-out;
-//         &:hover {
-//           background: var(--magicBlue);
-//           color: #000;
-//         }
-//       }
-//     }
-//   }
-// }
-
-.test {
+.button-container {
   background-color: black;
   text-align: center;
-  padding: 2rem;
+  padding: 5rem 0;
   a {
     text-decoration: none;
     text-transform: uppercase;
@@ -48,6 +15,9 @@
     &:hover {
       background: var(--magicBlue);
       color: #000;
+    }
+    @media (max-width: 768px) {
+      display: block;
     }
   }
   .link-card {

@@ -9,9 +9,9 @@ export default function Collection2() {
       <div className='container'>
         <div className='row'>
           <div className='col-sm-12 col-md-6'>
-            <div className='collection2__product-item collection2__product-item__1'>
-              <div className='collection2__product-info'>
-                <h2 className='collection2__product-title'>Get ready for the ultimate group experience</h2>
+            <div className='collection2__item '>
+              <div className='collection2__info'>
+                <h2 className='collection2__title'>Get ready for the ultimate group experience</h2>
                 <p className='collection2__paragraph'>Are you planning a group or client visit to Orlando?</p>
                 <ul className='collection2__list'>
                   <div>
@@ -32,7 +32,7 @@ export default function Collection2() {
           </div>
 
           <div className='col-sm-12 col-md-6'>
-            <div className='collection2__product-item collection2__product-item__2 '>
+            <div className='collection2__item  '>
               <Image src={together89} />
             </div>
           </div>

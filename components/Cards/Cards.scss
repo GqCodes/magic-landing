@@ -1,11 +1,11 @@
 .mycontainer {
-  padding: 10rem 0;
+  padding: 5rem 0;
   overflow: hidden;
   @media (max-width: 768px) {
     padding: 0;
   }
   .swipe-header {
-    font-size: 2rem;
+    font-size: 2.25rem;
     padding-bottom: 3rem;
     @media (max-width: 768px) {
       padding: 5rem 0;
@@ -14,6 +14,7 @@
   .myswiper {
     width: 100vw;
     height: 60vh;
+
     .swiperslide {
       img {
         width: 100%;

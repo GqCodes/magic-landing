@@ -12,13 +12,10 @@ export default function Cards() {
       <h1 className='swipe-header'>Enter the world of award-winning entertainment at the Amway Center.</h1>
       <Swiper
         slidesPerView={1.75}
-        // navigation
         pagination
         centeredSlides={true}
         modules={[Navigation, Pagination]}
-        // speed={800}
         grabCursor={true}
-        // loop
         spaceBetween={50}
         className='myswiper'
       >

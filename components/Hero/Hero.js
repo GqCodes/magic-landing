@@ -1,10 +1,3 @@
-import { Bebas_Neue } from 'next/font/google';
-
-const bebasNeue = Bebas_Neue({
-  weight: '400',
-  subsets: ['latin'],
-});
-
 export default function Hero() {
   return (
     <section>
@@ -12,7 +5,7 @@ export default function Hero() {
         <h1 className='header-main__title '>
           Orlando NBA
           <figure>
-            <video autoPlay muted loop playsInline>
+            <video autoPlay muted loop playsInline priority>
               <source src='/vid1.mp4' type='video/mp4' />
             </video>
           </figure>
@@ -42,12 +35,12 @@ export default function Hero() {
           <div className='hero__info'>
             <h3 className='hero__title'>Experience live NBA games like never before!</h3>
             <p className='hero__paragraph'>
-              Get ready for an adrenaline-fueled ride as you witness the heart-stopping action of a live NBA game! Catch all the biggest
-              names in basketball as they hit the court in Orlando, for the full Magic experience!
+              Get ready for an adrenaline fueled ride as you witness the heart-stopping action of a live NBA game! Catch all the biggest
+              names in basketball as they hit the court in Orlando for the full Magic experience!
               <br />
               <br />
               With in-game features for fans of all ages, your whole family will be part of a truly unforgettable event. Don't miss your
-              chance to be part of the ultimate NBA and Magic spectacle - grab your tickets now!
+              chance to be part of the ultimate NBA and Magic spectacle. Grab your tickets now!
             </p>
             <a href='#' className='hero__button'>
               Find your tickets

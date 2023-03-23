@@ -1,7 +1,5 @@
 .announce-bar {
   display: flex;
-  // justify-content: center;
-  // align-items: center;
   padding: 3px 20px;
   font-size: 1rem;
   background: var(--magicBlack);
@@ -22,19 +20,16 @@
   &__social-link {
     padding: 0 7px;
     color: var(--magicSilver);
-    // color: #fff;
+    transition: all 0.2s ease-in-out;
+
     &:hover {
       color: var(--magicBlue);
-      transition: 0.2s;
     }
   }
 
   .search {
     margin-left: auto;
     font-size: 0.75rem;
-    .fa-magnifying-glass {
-      font-size: 0.9rem;
-    }
     a {
       text-decoration: none;
       &:hover {

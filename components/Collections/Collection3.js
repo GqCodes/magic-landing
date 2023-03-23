@@ -1,6 +1,6 @@
 export default function Collection3() {
   return (
-    <div className='button-container test'>
+    <div className='button-container'>
       <div className='container'>
         <div className=' row all-links'>
           <div className='col-sm-6 col-md-3 link-card'>
